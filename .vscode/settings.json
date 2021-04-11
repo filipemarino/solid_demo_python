@@ -1,0 +1,15 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.ignorePatterns": [
+        ".vscode/*.py",
+        "**/site-packages/**/*.py",
+        "**/.git",
+        "**/*.pyc",
+        "**/__pycache__/"
+    ],
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pylintPath": "cardealer\\Scripts\\pylint.exe",
+    "python.linting.pylintArgs": ["--load-plugins", "pylint_django"],
+    "python.pythonPath": "cardealer\\Scripts\\python.exe"
+}
